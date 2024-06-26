@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.car-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.list-group-item i {
+  margin-right: 10px;
+}

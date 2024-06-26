@@ -1,0 +1,44 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Filtreler</h5>
+    <form>
+      <!-- Fuel Type Filter -->
+      <div class="form-group">
+        <label for="fuelType">Yakıt Türü</label>
+        <select class="form-control" id="fuelType">
+          <option>Benzin</option>
+          <option>Dizel</option>
+          <option>Elektrik</option>
+          <option>Hibrit</option>
+        </select>
+      </div>
+      <!-- Gear Type Filter -->
+      <div class="form-group">
+        <label for="gearType">Vites Türü</label>
+        <select class="form-control" id="gearType">
+          <option>Manuel</option>
+          <option>Otomatik</option>
+        </select>
+      </div>
+      <!-- Car Type Filter -->
+      <div class="form-group">
+        <label for="carType">Araç Türü</label>
+        <select class="form-control" id="carType">
+          <option>Binek</option>
+          <option>SUV</option>
+          <option>Minivan</option>
+          <option>Kamyonet</option>
+        </select>
+      </div>
+      <!-- Price Range Filter -->
+      <div class="form-group">
+        <label for="priceRangeStart">Fiyat Aralığı</label>
+        <div class="d-flex">
+          <input type="number" class="form-control" id="priceRangeStart" placeholder="Min TL" min="0" max="100000">
+          <input type="number" class="form-control ms-2" id="priceRangeEnd" placeholder="Max TL" min="0" max="100000">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3 d-block w-100">Filtrele</button>
+    </form>
+  </div>
+</div>
