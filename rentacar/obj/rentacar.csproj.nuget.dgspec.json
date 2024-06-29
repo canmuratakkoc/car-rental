@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galli\\source\\repos\\rentacar\\rentacar\\rentacar.csproj": {}
+    "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\rentacar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galli\\source\\repos\\rentacar\\rentacar\\rentacar.csproj": {
+    "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\rentacar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galli\\source\\repos\\rentacar\\rentacar\\rentacar.csproj",
+        "projectUniqueName": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\rentacar.csproj",
         "projectName": "rentacar",
-        "projectPath": "C:\\Users\\galli\\source\\repos\\rentacar\\rentacar\\rentacar.csproj",
+        "projectPath": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\rentacar.csproj",
         "packagesPath": "C:\\Users\\galli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galli\\source\\repos\\rentacar\\rentacar\\obj\\",
+        "outputPath": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\galli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"

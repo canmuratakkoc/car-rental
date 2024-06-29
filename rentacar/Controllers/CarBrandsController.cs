@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using rentacar.Data;
 using rentacar.Models.Dtos;
@@ -49,7 +50,9 @@ namespace rentacar.Controllers
             dbContext.CarBrands.Add(carBrandEntity);
             dbContext.SaveChanges();
 
-            return Ok(addCarBrandDto);
+            var result = new { name = addCarBrandDto.Name, result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpPut]
