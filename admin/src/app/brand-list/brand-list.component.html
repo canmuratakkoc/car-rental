@@ -1,0 +1,21 @@
+<table datatable [dtOptions]="dtoptions" [dtTrigger]="dtTrigger">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Marka</th>
+      <th>İşlem</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(item of brandList; track item) {
+      <tr>
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>
+          <button mat-raised-button class="btn btn-primary me-2" (click)="navigateToEdit(item.id)">Düzenle</button>
+          <button mat-raised-button class="btn btn-danger" (click)="deleteMethod(item.id)">Sil</button>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

@@ -56,8 +56,9 @@ namespace rentacar.Controllers
 
             dbContext.CarModels.Add(carModelEntity);
             dbContext.SaveChanges();
+            var result = new {result = true};
 
-            return Ok(addCarModelDto);
+            return new JsonResult(result);
         }
 
         [HttpPut]
@@ -82,7 +83,9 @@ namespace rentacar.Controllers
             carModel.AirConditioner = updateCarModelDto.AirConditioner;
 
             dbContext.SaveChanges();
-            return Ok(carModel);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpDelete]

@@ -53,7 +53,9 @@ namespace rentacar.Controllers
             dbContext.Users.Add(UserEntity);
             dbContext.SaveChanges();
 
-            return Ok(addUserDto);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpPut]
@@ -74,7 +76,9 @@ namespace rentacar.Controllers
             User.IdentityNumber = updateUserDto.IdentityNumber;
 
             dbContext.SaveChanges();
-            return Ok(User);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpDelete]

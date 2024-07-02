@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\models\\dtos\\carmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\models\\dtos\\carmodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\controllers\\rentalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\controllers\\carmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\controllers\\carmodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\controllers\\carbrandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\controllers\\carbrandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\rentacar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\rentacar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|c:\\users\\galli\\onedrive\\belgeler\\github\\car-rental\\rentacar\\rentacar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C99D12C-69AF-43B0-B3E9-AB1C0906372B}|rentacar\\rentacar.csproj|solutionrelative:rentacar\\rentacar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,12 +50,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarModelDto.cs",
+              "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Models\\Dtos\\CarModelDto.cs",
+              "RelativeDocumentMoniker": "rentacar\\Models\\Dtos\\CarModelDto.cs",
+              "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Models\\Dtos\\CarModelDto.cs",
+              "RelativeToolTip": "rentacar\\Models\\Dtos\\CarModelDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:30:57.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "rentacar",
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Models\\Dtos\\CarDto.cs",
+              "RelativeDocumentMoniker": "rentacar\\Models\\Dtos\\CarDto.cs",
+              "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Models\\Dtos\\CarDto.cs",
+              "RelativeToolTip": "rentacar\\Models\\Dtos\\CarDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:30:35.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "rentacar\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "rentacar\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:48:31.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RentalsController.cs",
+              "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\RentalsController.cs",
+              "RelativeDocumentMoniker": "rentacar\\Controllers\\RentalsController.cs",
+              "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\RentalsController.cs",
+              "RelativeToolTip": "rentacar\\Controllers\\RentalsController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwE0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:48:13.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "rentacar\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "rentacar\\Controllers\\CarsController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:48:01.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\CarModelsController.cs",
+              "RelativeDocumentMoniker": "rentacar\\Controllers\\CarModelsController.cs",
+              "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\CarModelsController.cs",
+              "RelativeToolTip": "rentacar\\Controllers\\CarModelsController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAgwGUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:46:21.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarBrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\CarBrandsController.cs",
+              "RelativeDocumentMoniker": "rentacar\\Controllers\\CarBrandsController.cs",
+              "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Controllers\\CarBrandsController.cs",
+              "RelativeToolTip": "rentacar\\Controllers\\CarBrandsController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:38:02.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "rentacar.csproj",
               "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\rentacar.csproj",
               "RelativeDocumentMoniker": "rentacar\\rentacar.csproj",
               "ToolTip": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\rentacar.csproj",
@@ -39,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "rentacar\\Properties\\launchSettings.json",
@@ -52,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\galli\\OneDrive\\Belgeler\\GitHub\\car-rental\\rentacar\\Program.cs",
               "RelativeDocumentMoniker": "rentacar\\Program.cs",

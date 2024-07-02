@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-sm-4">
+      <form>
+        <div class="form-group mb-2 mt-4">
+          <label class="mb-2" for="name">Marka adı</label>
+          <input type="text" class="form-control" [(ngModel)]="brandObj.name" name="name" id="name" placeholder="Marka adını girin">
+        </div>
+        <button type="button" (click)="onSave()" class="btn btn-primary">Kaydet</button>
+      </form>
+    </div>
+  </div>
+</div>

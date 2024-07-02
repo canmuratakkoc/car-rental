@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using rentacar.Data;
 using rentacar.Models.Dtos;
 using rentacar.Models.Entities;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 namespace rentacar.Controllers
 {
@@ -20,8 +23,39 @@ namespace rentacar.Controllers
         [HttpGet]
         public IActionResult GetAllCars()
         {
-            var AllCars = dbContext.Cars.ToList();
-            return Ok(AllCars);
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+
+            var cars = dbContext.Cars
+                                .Include(c => c.CarModel)  // Include carModel navigation property
+                                .Select(c => new CarDto
+                                {
+                                    Id = c.Id,
+                                    Price = c.Price,
+                                    Color = c.Color,
+                                    Image = c.Image,
+                                    Status = c.Status,
+                                    CarModelId = c.CarModelId,
+                                    CarModel = new CarModelDto
+                                    {
+                                        Id = c.CarModel.Id,
+                                        Name = c.CarModel.Name,
+                                        Year = c.CarModel.Year,
+                                        Type = c.CarModel.Type,
+                                        SeatCount = c.CarModel.SeatCount,
+                                        DoorCount = c.CarModel.DoorCount,
+                                        GearType = c.CarModel.GearType,
+                                        FuelType = c.CarModel.FuelType,
+                                        AirConditioner = c.CarModel.AirConditioner,
+                                        CarBrandId = c.CarModel.CarBrandId,
+                                        CarBrand = c.CarModel.CarBrand  // Assuming CarBrand is another entity or complex type
+                                    }
+                                })
+                                .ToList();
+
+            return Ok(JsonSerializer.Serialize(cars, options));
         }
 
         [HttpGet]
@@ -53,7 +87,9 @@ namespace rentacar.Controllers
             dbContext.Cars.Add(CarEntity);
             dbContext.SaveChanges();
 
-            return Ok(addCarDto);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpPut]
@@ -74,7 +110,9 @@ namespace rentacar.Controllers
             Car.Status = updateCarDto.Status;
 
             dbContext.SaveChanges();
-            return Ok(Car);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpDelete]

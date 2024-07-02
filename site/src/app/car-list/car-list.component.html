@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-4 mb-4" *ngFor="let car of cars">
+    <div class="card card-hover">
+      <div class="car-title mb-2">{{ car.CarModel.CarBrand.Name }} {{ car.CarModel.Name }} ({{ car.CarModel.Year }})</div>
+      <img [src]="car.Image" class="card-img-top mb-2" [alt]="car.name">
+      <div class="card-body">
+        <h5 class="card-title">Araç Özellikleri</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><i class="fas fa-car-side"></i>{{ car.CarModel.Type }}</li>
+          <li class="list-group-item"><i class="fas fa-door-open"></i>{{ car.CarModel.DoorCount }} Kapı</li>
+          <li class="list-group-item"><i class="fas fa-chair"></i>{{ car.CarModel.SeatCount }} Koltuk</li>
+          <li class="list-group-item"><i class="fas fa-cogs"></i>{{ car.CarModel.GearType }}</li>
+          <li class="list-group-item"><i class="fas fa-gas-pump"></i>{{ car.CarModel.FuelType }}</li>
+          <li class="list-group-item"><i class="fas fa-snowflake"></i>{{ car.CarModel.AirConditioner == true ? 'Klima var' : 'Klima yok' }}</li>
+        </ul>
+        <a href="#" class="btn btn-primary mt-3 d-block w-100">Kirala</a>
+      </div>
+    </div>
+  </div>
+</div>

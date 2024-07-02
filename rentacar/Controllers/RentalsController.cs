@@ -54,7 +54,9 @@ namespace rentacar.Controllers
             dbContext.Rentals.Add(RentalEntity);
             dbContext.SaveChanges();
 
-            return Ok(addRentalDto);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpPut]
@@ -71,7 +73,9 @@ namespace rentacar.Controllers
             Rental.Handed = updateRentalDto.Handed;
 
             dbContext.SaveChanges();
-            return Ok(Rental);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpDelete]

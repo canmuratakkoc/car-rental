@@ -50,7 +50,7 @@ namespace rentacar.Controllers
             dbContext.CarBrands.Add(carBrandEntity);
             dbContext.SaveChanges();
 
-            var result = new { name = addCarBrandDto.Name, result = true };
+            var result = new { result = true };
 
             return new JsonResult(result);
         }
@@ -69,7 +69,9 @@ namespace rentacar.Controllers
             carBrand.Name = updateCarBrandDto.Name;
 
             dbContext.SaveChanges();
-            return Ok(carBrand);
+            var result = new { result = true };
+
+            return new JsonResult(result);
         }
 
         [HttpDelete]

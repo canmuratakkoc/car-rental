@@ -1,0 +1,58 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-sm-4">
+      <form>
+        <div class="form-group mb-2 mt-4">
+          <label class="mb-2" for="carBrandId">Araba Marka</label>
+          <select class="form-control" [(ngModel)]="modelObj.carBrandId" name="carBrandId" id="carBrandId">
+            @for(item of brandList; track item) {
+              <option [value]="item.id">{{ item.name }}</option>
+            }
+          </select>
+        </div>
+        <div class="form-group mb-2">
+          <label class="mb-2" for="name">Model adı</label>
+          <input type="text" class="form-control" [(ngModel)]="modelObj.name" name="name" id="name" placeholder="Model adını girin">
+        </div>
+        <div class="form-group mb-2">
+          <label class="mb-2" for="year">Yıl</label>
+          <input type="number" class="form-control" [(ngModel)]="modelObj.year" name="year" id="year" placeholder="Yıl girin">
+        </div>
+        <div class="form-group mb-2">
+          <label class="mb-2" for="type">Tip</label>
+          <select class="form-control" [(ngModel)]="modelObj.type" name="type" id="type">
+            <option value="Binek" selected>Binek</option>
+            <option value="Ticari">Ticari</option>
+          </select>
+        </div>
+        <div class="form-group mb-2">
+          <label class="mb-2" for="seatCount">Koltuk Sayısı</label>
+          <input type="number" class="form-control" [(ngModel)]="modelObj.seatCount" name="seatCount" id="seatCount" placeholder="Koltuk sayısını girin">
+        </div>
+        <div class="form-group mb-2">
+          <label class="mb-2" for="doorCount">Kapı Sayısı</label>
+          <input type="number" class="form-control" [(ngModel)]="modelObj.doorCount" name="doorCount" id="doorCount" placeholder="Kapı sayısını girin">
+        </div>
+        <div class="form-group mb-2">
+          <label class="mb-2" for="gearType">Vites Tipi</label>
+          <select class="form-control" [(ngModel)]="modelObj.gearType" name="gearType" id="gearType">
+            <option value="Otomatik" selected>Otomatik</option>
+            <option value="Manuel">Manuel</option>
+          </select>
+        </div>
+        <div class="form-group mb-2">
+          <label class="mb-2" for="fuelType">Yakıt Tipi</label>
+          <select class="form-control" [(ngModel)]="modelObj.fuelType" name="fuelType" id="fuelType">
+            <option value="Benzin">Benzin</option>
+            <option value="Dizel">Dizel</option>
+          </select>
+        </div>
+        <div class="form-group mb-2 form-check">
+          <input type="checkbox" class="form-check-input" [(ngModel)]="modelObj.airConditioner" name="airConditioner" id="airConditioner">
+          <label class="form-check-label" for="airConditioner">Klima</label>
+        </div>
+        <button type="button" (click)="onSave()" class="btn btn-primary">Kaydet</button>
+      </form>
+    </div>
+  </div>
+</div>
