@@ -12,8 +12,8 @@ using rentacar.Data;
 namespace rentacar.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240627071547_Main")]
-    partial class Main
+    [Migration("20240702225701_main")]
+    partial class main
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -164,6 +164,10 @@ namespace rentacar.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Lastname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

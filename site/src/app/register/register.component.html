@@ -1,0 +1,49 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card">
+        <h5 class="card-header">Profil Güncelle</h5>
+        <div class="card-body">
+          <form>
+            <!-- First Name -->
+            <div class="form-group my-2">
+              <label for="firstName">Ad</label>
+              <input type="text" class="form-control" [(ngModel)]="registerObj.firstname" id="firstname" name="firstname" placeholder="Adınızı girin">
+            </div>
+            <!-- Last Name -->
+            <div class="form-group my-2">
+              <label for="lastName">Soyad</label>
+              <input type="text" class="form-control" [(ngModel)]="registerObj.lastname" id="lastname" name="lastname" placeholder="Soyadınızı girin">
+            </div>
+            <!-- Identity Number -->
+            <div class="form-group my-2">
+              <label for="identityNumber">Kimlik Numarası</label>
+              <input type="text" class="form-control" [(ngModel)]="registerObj.identityNumber" id="identityNumber" name="identityNumber" placeholder="Kimlik numaranızı girin">
+            </div>
+            <!-- Email -->
+            <div class="form-group my-2">
+              <label for="email">Email adresi</label>
+              <input type="email" class="form-control" [(ngModel)]="registerObj.email" id="email" name="email" placeholder="Email adresinizi girin">
+            </div>
+            <!-- Phone Number -->
+            <div class="form-group my-2">
+              <label for="phoneNumber">Telefon Numarası</label>
+              <input type="tel" class="form-control" [(ngModel)]="registerObj.phone" id="phone" name="phone" placeholder="Telefon numaranızı girin">
+            </div>
+            <!-- Password -->
+            <div class="form-group my-2">
+              <label for="password">Şifre</label>
+              <input type="password" class="form-control" [(ngModel)]="registerObj.password" id="password" name="password" placeholder="Yeni şifrenizi girin">
+            </div>
+            <!-- Password Again -->
+            <div class="form-group my-2">
+              <label for="password">Şifre (Tekrar)</label>
+              <input type="password" class="form-control" [(ngModel)]="registerObj.passwordAgain" id="passwordAgain" name="passwordAgain" placeholder="Yeni şifrenizi girin">
+            </div>
+            <button type="button" (click)="onRegister()" class="btn btn-success w-100 mt-3">Kaydol</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

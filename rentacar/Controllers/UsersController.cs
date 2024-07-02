@@ -47,7 +47,8 @@ namespace rentacar.Controllers
                 Lastname = addUserDto.Lastname,
                 Email = addUserDto.Email,
                 Phone = addUserDto.Phone,
-                IdentityNumber = addUserDto.IdentityNumber
+                IdentityNumber = addUserDto.IdentityNumber,
+                Password = addUserDto.Password
             };
 
             dbContext.Users.Add(UserEntity);
@@ -56,6 +57,20 @@ namespace rentacar.Controllers
             var result = new { result = true };
 
             return new JsonResult(result);
+        }
+
+        [HttpPost]
+        [Route("login")]
+        public IActionResult LoginUser(LoginUserDto loginUserDto)
+        {
+            var user = dbContext.Users.FirstOrDefault(u => u.Email.ToLower() == loginUserDto.Email.ToLower());
+
+            if (user == null || user.Password != loginUserDto.Password)
+            {
+                return new JsonResult(new { result = false });
+            }
+
+            return new JsonResult(new { result = true });
         }
 
         [HttpPut]

@@ -11253,3 +11253,8 @@ body {
 .list-group-item i {
   margin-right: 10px;
 }
+
+.nav > * {
+  color: white !important;
+  font-weight: bold !important;
+}
