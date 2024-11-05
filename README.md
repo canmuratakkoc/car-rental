@@ -1,7 +1,7 @@
 
 # Car Rental
 
-Oğuzhan Güfer'in okul projesi için geliştirmiş olduğu araç kiralama websitesidir.
+Asp.Net Core ve Angular.js öğrenmek için geliştirmiş olduğum bir araç kiralama websitesidir.
 
 ‎
 ## Kullanılan Teknolojiler
